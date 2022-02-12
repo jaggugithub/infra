@@ -1,2 +1,2 @@
 # infra
-This infra repo for sample deployment
+This infra repo is for sample deployment
