@@ -1,3 +1,8 @@
+variable "region" {
+  type = string
+  default = "eu-west-2"
+}
+
 variable "vpc_cidr_block" {
   type = string
   default = "10.80.0.0/25"
@@ -27,17 +32,22 @@ variable "private_subnet_cidr_block_a" {
 
 variable "private_subnet_cidr_block_b" {
   type = string
-  default = "10.80.0.64/28"
+  default = "10.80.0.80/28"
 }
 
 variable "private_subnet_cidr_block_c" {
   type = string
-  default = "10.8.0.64/28"
+  default = "10.80.0.96/28"
 }
 
 variable "instance_count" {
   type = number
   default = 1
+}
+
+variable "instance_type" {
+  type = string
+  default = "t2.micro"
 }
 
 variable "public_subnets" {
