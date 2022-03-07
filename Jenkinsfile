@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Environment') {
             steps {
-                echo "This is a ${params.CHOICE} Environment"
+                echo 'This is a ${params.CHOICE} Environment'
                 
             }
         }
