@@ -2,6 +2,12 @@ pipeline {
     agent any
 
     stages {
+        stage('Environment') {
+            steps {
+                echo "This is a ${params.CHOICE} Environment"
+                
+            }
+        }
         stage('Hello') {
             steps {
                 echo 'Hello World'
