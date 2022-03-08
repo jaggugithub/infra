@@ -5,6 +5,7 @@ pipeline {
         stage('Environment') {
             steps {
                 echo "This is a ${params.Environment} Environment"
+                echo "This is a ${Build_Number} Build."
                 
             }
         }
