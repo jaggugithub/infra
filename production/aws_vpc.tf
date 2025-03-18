@@ -1,1 +1,0 @@
-C:/Users/admin/Downloads/infra/vpc.tf
